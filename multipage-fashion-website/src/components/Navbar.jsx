@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md px-6 py-4">
+    <nav className="bg-gray-100 shadow-md px-6 py-4">
       <ul className="flex justify-center gap-8">
         {["/", "/about", "/products", "/contact"].map((path, index) => {
           const labels = ["Home", "About", "Products", "Contact"];
